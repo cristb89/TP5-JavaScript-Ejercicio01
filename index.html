@@ -19,10 +19,10 @@
     <main>
         <section class="container text-center">
             <article class="bg-dark p-5">
-                <button class="btn btn-danger">Comenzar el juego</button>
+                <button id="boton-comenzar" class="btn btn-danger" onclick="generarNumeroAleatorio()">Comenzar el juego</button>
                 <form action="" class="d-flex flex-column align-items-center">
                     <input type="number" class="mt-2" name="numero" id="Numero" style="width: 50px;">
-                    <input type="submit" class="btn btn-danger mt-2" value="Enviar" style="width: 100px;">
+                    <input type="button" class="btn btn-danger mt-2" onclick="compararNumeros()" value="Enviar" style="width: 100px;">
                 </form>
             </article>
         </section>
